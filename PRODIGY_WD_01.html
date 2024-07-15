@@ -1,0 +1,259 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        /* Basic styles */
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background: #0073e6;
+            color: white;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            transition: background 0.3s;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            padding: 15px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #333;
+            background-color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        /* Section styles */
+        section {
+            padding: 100px 20px;
+            margin-top: 60px;
+        }
+
+        #home {
+            background: #ffffff;
+            text-align: center;
+        }
+
+        #about, #services, #contact {
+            color: white;
+            text-align: center;
+        }
+
+        section h1, section h2 {
+            margin-bottom: 30px;
+            color: #0073e6;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Scroll effects */
+        #navbar {
+            background-color: #0073e6;
+        }
+
+        /* Additional styles */
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #005bb5;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Welcome to Foody Baba – Your Culinary Sanctuary
+
+Nestled in the heart of Nawabshah, Foody Baba brings you an unparalleled dining experience where tradition meets innovation. Our restaurant is a haven for food enthusiasts, offering a diverse menu that celebrates the rich tapestry of global cuisines while staying true to our roots.
+
+At Foody Baba, we believe that food is more than just sustenance; it's a journey that tantalizes the senses and brings people together. Our chefs are artisans, crafting each dish with passion, precision, and the freshest ingredients. From the first bite to the last, you'll be immersed in a symphony of flavors that tell a story of culinary excellence.
+
+Our Ambiance
+Step into Foody Baba and be transported to a world where rustic charm meets modern elegance. Our cozy yet stylish interiors are designed to make you feel at home while offering a touch of sophistication. Whether you're here for a romantic dinner, a family gathering, or a casual meal with friends, our ambiance sets the perfect backdrop for any occasion.
+
+Our Menu
+Our menu is a curated collection of culinary masterpieces that cater to every palate. Start your journey with our selection of appetizers, each designed to whet your appetite and set the stage for what's to come. Dive into our main courses, where you'll find everything from succulent meats and fresh seafood to hearty vegetarian dishes and vegan delights. Each dish is a testament to our commitment to quality and flavor.
+
+Don't forget to save room for dessert – our sweet treats are the perfect ending to a memorable meal. Pair your food with our exquisite range of wines, craft beers, and signature cocktails, all carefully selected to complement our dishes.
+
+Our Philosophy
+At Foody Baba, we are committed to sustainability and responsible sourcing. We believe in supporting local farmers and suppliers, ensuring that our ingredients are not only fresh but also ethically sourced. Our kitchen operates with a zero-waste mindset, and we are continually striving to reduce our environmental footprint.
+
+Join Us
+We invite you to join us at Foody Baba, where every meal is a celebration of flavor, tradition, and innovation. Whether you're a local or a visitor, you'll find a warm welcome and a dining experience like no other. Come for the food, stay for the memories, and leave with a satisfied palate and a smile on your face.
+
+Reservations
+To ensure you have the best possible experience, we recommend making a reservation. Visit our Reservations page or call us directly at [Your Phone Number] to book your table.
+
+Follow Us
+Stay updated with our latest news, events, and promotions by following us on social media. Join our community on Facebook, Instagram, and Twitter, and share your Foody Baba moments with us using #FoodyBaba.
+
+Foody Baba – Where Every Bite Tells a Story.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>About Foody Baba – Our Story, Our Passion
+
+Welcome to Foody Baba, a culinary destination where passion meets tradition and innovation. Our story is one of dedication to the art of food, a commitment to sustainability, and a love for bringing people together through exceptional dining experiences.
+
+Our Journey
+Foody Baba was born out of a dream to create a place where food lovers could come together and enjoy an extraordinary dining experience. Our founders, [Founder Names], envisioned a restaurant that would not only offer delicious food but also a warm and inviting atmosphere where guests could feel at home.
+
+From humble beginnings, Foody Baba has grown into a beloved establishment known for its diverse menu, impeccable service, and commitment to quality. Our journey has been one of continuous learning and growth, driven by a passion for culinary excellence and a desire to exceed our guests' expectations.
+
+Our Philosophy
+At the heart of Foody Baba is a simple philosophy: great food comes from great ingredients. We are dedicated to sourcing the freshest and highest quality ingredients, supporting local farmers and suppliers, and practicing sustainability in everything we do. Our chefs are committed to crafting dishes that are not only delicious but also respectful of the environment.
+
+Our Team
+Our team at Foody Baba is a family of passionate individuals who share a love for food and hospitality. From our talented chefs who bring creativity and expertise to every dish, to our friendly and knowledgeable staff who ensure that every guest feels welcomed and cared for, each member of our team plays a vital role in creating the Foody Baba experience.
+
+Our Menu
+Our menu is a reflection of our diverse culinary influences and our commitment to excellence. We offer a wide range of dishes that celebrate the rich tapestry of global cuisines, from traditional favorites to innovative creations. Whether you're craving a hearty meal, a light and healthy option, or a decadent dessert, you'll find something to satisfy your palate at Foody Baba.
+
+Our Commitment to Sustainability
+Sustainability is at the core of everything we do at Foody Baba. We believe that great food should not come at the expense of our planet, and we are committed to reducing our environmental footprint. From sourcing locally and seasonally to minimizing waste and using eco-friendly practices, we strive to make a positive impact on our community and the environment.
+
+Community Engagement
+Foody Baba is more than just a restaurant; we are a part of the community. We believe in giving back and supporting local initiatives, from food drives and charity events to partnerships with local organizations. Our goal is to make a meaningful difference and contribute to the well-being of our community.
+
+Join Us
+We invite you to be a part of our story and experience the magic of Foody Baba for yourself. Whether you're dining with us for the first time or you're a regular guest, we promise to make every visit special. Thank you for choosing Foody Baba, where every meal is a celebration of flavor, tradition, and community.
+
+Foody Baba – Where Passion Meets Tradition.
+
+.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Services at Foody Baba – Beyond Exceptional Dining
+
+At Foody Baba, we are dedicated to providing not just a meal, but a complete culinary experience. Our services are designed to cater to the diverse needs of our guests, ensuring that every visit is memorable and enjoyable. Discover the range of services we offer, all crafted with the same passion and commitment to excellence that defines our restaurant.
+
+Dine-In Experience
+Join us for an unforgettable dining experience in our beautifully designed restaurant. Our cozy yet elegant ambiance sets the perfect stage for any occasion, from intimate dinners to family gatherings and celebrations. Our attentive staff is here to ensure that your dining experience is seamless and enjoyable, offering personalized service and expert recommendations.
+
+Takeout and Delivery
+Enjoy the flavors of Foody Baba from the comfort of your home with our convenient takeout and delivery services. Our full menu is available for takeout, and we partner with reliable delivery services to bring your favorite dishes straight to your doorstep. Whether you're planning a cozy night in or a casual meal at the office, we've got you covered.
+
+Catering Services
+Make your next event a culinary success with Foody Baba's catering services. We offer a variety of catering options, from corporate lunches and meetings to weddings and private parties. Our catering team will work with you to create a customized menu that suits your needs and ensures that your guests are treated to a delightful dining experience. Contact us to discuss your event and let us take care of the rest.
+
+Private Dining
+For those seeking an exclusive dining experience, Foody Baba offers private dining options. Whether you're hosting a business dinner, a special celebration, or a romantic evening, our private dining rooms provide an intimate and personalized setting. Enjoy a tailored menu and dedicated service in a space designed to make your event truly special.
+
+Special Events and Promotions
+At Foody Baba, we love celebrating with our guests. Throughout the year, we host a variety of special events and promotions, from themed dinners and holiday celebrations to wine tastings and cooking classes. Follow us on social media and sign up for our newsletter to stay updated on upcoming events and exclusive offers.
+
+Gift Cards
+Share the gift of delicious food with Foody Baba gift cards. Perfect for birthdays, anniversaries, holidays, or simply as a thoughtful gesture, our gift cards are available in various denominations and can be purchased online or in-store. Give the gift of a memorable dining experience and let your loved ones enjoy the flavors of Foody Baba.
+
+Sustainability Initiatives
+We are committed to making a positive impact on our community and the environment. Our sustainability initiatives include sourcing locally and seasonally, reducing waste, and using eco-friendly practices. We also engage in community outreach and support local organizations through various initiatives. Learn more about our sustainability efforts and how you can get involved by visiting our Sustainability page.
+
+Customer Feedback
+Your feedback is invaluable to us. We strive to continuously improve and provide the best possible experience for our guests. Please feel free to share your thoughts, suggestions, and experiences with us. You can leave a review on our website, social media pages, or contact us directly. We appreciate your input and look forward to hearing from you.
+
+Contact Us
+Have a question or need assistance? Our friendly team is here to help. Visit our Contact page for information on how to get in touch with us, make a reservation, or inquire about our services. We look forward to welcoming you to Foody Baba and ensuring that your experience with us is nothing short of exceptional.
+
+Foody Baba – Your Destination for Culinary Excellence.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Visit Us
+Foody Baba
+HALA<br>
+Sindh<br>
+Pakistan<br>
+Call Us
+Phone: +92306 3514611<br>
+Email Us asimmemon2004@gmail.com
+<br>
+
+
+Opening Hours<br>
+Monday – Thursday: 11:00 AM – 10:00 PM<br>
+Friday – Saturday: 11:00 AM – 11:00 PM<br>
+Sunday: 12:00 PM – 9:00 PM</p>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const navbar = document.getElementById('navbar');
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.style.backgroundColor = '#005bb5';
+                } else {
+                    navbar.style.backgroundColor = '#0073e6';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
